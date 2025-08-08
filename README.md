@@ -108,16 +108,18 @@ http://localhost:8501
 
 ---
 
-## Demonstração
+## Fluxo do App
 
-#### Fluxo do App
+```mermaid
+%%{init: {'flowchart': {'nodeSpacing': 20, 'rankSpacing': 20, 'curve': 'linear'}}}%%
 
 flowchart TD
-A[Carregar dataset slr12.csv] --> B[Treinar modelo de Regressão Linear]
-B --> C[Exibir dados e gráfico de dispersão]
-C --> D[Usuário insere novo valor anual]
-D --> E[Modelo calcula previsão]
-E --> F[Exibir custo inicial previsto]
+    A[Carregar dataset slr12.csv] --> B[Treinar modelo de Regressão Linear]
+    B --> C[Exibir dados e gráfico de dispersão]
+    C --> D[Usuário insere novo valor anual]
+    D --> E[Modelo calcula previsão]
+    E --> F[Exibir custo inicial previsto]
+```
 
 ---
 
