@@ -122,6 +122,14 @@ O usuário pode visualizar os dados, o gráfico de dispersão com a linha de reg
 
 ---
 
+## Acesso ao App Online
+
+Você pode acessar a aplicação da Previsão de Custo de Franquia diretamente no link abaixo, hospedada no Streamlit Cloud:
+
+👉 [franchise-cost-prediction-hao.streamlit.app](https://franchise-cost-prediction-hao.streamlit.app)
+
+---
+
 ## Licença
 
 Este projeto está sob a licença MIT - veja o arquivo [LICENSE](./LICENSE) para detalhes.
