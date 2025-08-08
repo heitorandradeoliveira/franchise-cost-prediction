@@ -57,7 +57,7 @@ Este projeto é uma aplicação **interativa em Streamlit** que utiliza **Regres
 
 ## Configuração do Ambiente Conda para o Projeto
 
-Este guia descreve como configurar corretamente o ambiente Conda para executar o projeto, incluindo a instalação do **PyTorch** com **CUDA 11.8** .
+Este guia descreve como configurar corretamente o ambiente Conda para executar o projeto.
 
 ### Passo a Passo
 
@@ -68,17 +68,7 @@ conda create -n apps_streamlit python=3.10 pip
 conda activate apps_streamlit
 ```
 
-#### Instalar o PyTorch com CUDA 11.8
-
-Utilize o repositório oficial do PyTorch para instalar a versão desejada:
-
-```
-pip install torch==2.2.1+cu118 torchvision==0.17.1+cu118 torchaudio==2.2.1 --index-url https://download.pytorch.org/whl/cu118
-```
-
-#### Instalar as demais dependências
-
-Após instalar o PyTorch, execute:
+#### Instalar as dependências
 
 ```
 pip install -r requirements.txt
@@ -97,7 +87,7 @@ venv\Scripts\activate      # Windowspip install -r requirements.txt
 ## Execute o Streamlit
 
 ```
-streamlit run ./app/reglin.py
+streamlit run ./app/app.py
 ```
 
 ## Acesse no navegador
